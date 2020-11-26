@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Localizacion \n Posicion actual"
+        android:id="@+id/titulo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitud:"
+        android:layout_below="@+id/titulo"
+        android:id="@+id/xtv1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitud:"
+        android:layout_below="@+id/xtv1"
+        android:id="@+id/xtv2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Presición:"
+        android:layout_below="@+id/xtv2"
+        android:id="@+id/xtv3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activar"
+        android:layout_below="@+id/xtv3"
+        android:id="@+id/xbn1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desactivar"
+        android:layout_below="@+id/xbn1"
+        android:id="@+id/xbn2"/>
+
+    <TextView
+        android:id="@+id/xtv4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/xbn2"
+        android:text="Estado del proveedor: 1" />
+</RelativeLayout>

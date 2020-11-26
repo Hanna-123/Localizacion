@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MiGPS2</string>
+    <string name="pause">Pausar</string>
+    <string name="resume">Reanudar</string>
+</resources>
